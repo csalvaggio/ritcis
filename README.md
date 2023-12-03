@@ -27,6 +27,10 @@ where the `028` represents the square dimension of the images (28x28 pixels in t
 
 (documentation in progress)
 
+## Requirements
+
+(documentation in progress)
+
 ## Acknowledgements
 
 If you find this database useful and utilize it in your research, please attribute this repository in your publications as follows
