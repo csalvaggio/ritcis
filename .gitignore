@@ -1,0 +1,7 @@
+samples/tiles/*
+*-ubyte
+__pycache__
+*.pyc
+*.ORIG
+*.SAVE
+.DS_Store
