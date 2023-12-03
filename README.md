@@ -14,14 +14,14 @@ To date, 57 forms have been prepared and used to create the current instantiatio
 
 The format of the training/test images and labels files, located in the `datasets` directory above, are identical to those used for the MNIST database files.  Data readers designed for reading MNIST database files should work identically on the RITCIS database files.
 
-The database files located in `datasets` are named as 
+The compressed database files located in `datasets` are named as 
 
-    test-images-028-ubyte
-    test-labels-028-ubyte
-    train-images-028-ubyte
-    train-labels-028-ubyte
+    test-images-028-ubyte.gz
+    test-labels-028-ubyte.gz
+    train-images-028-ubyte.gz
+    train-labels-028-ubyte.gz
 
-where the `028` represents the square dimension of the images (28x28 pixels in this example).
+where the `028` represents the square dimension of the images (28x28 pixels in this example).  Be sure to decompress these database files prior to use on your system.
 
 ## Data Preparation
 
