@@ -45,4 +45,4 @@ BibTeX
         howpublished = {https://github.com/csalvaggio/ritcis}
     }
 
-<span style="font-size:small;">Copyright (C) 2023, Rochester Institute of Technology</span>
+<span style="font-size:small;color:red;">Copyright (C) 2023, Rochester Institute of Technology</span>
