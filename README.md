@@ -25,7 +25,13 @@ where the `028` represents the square dimension of the images (28x28 pixels in t
 
 ## Data Preparation
 
-(documentation in progress)
+The handwritten letters (paper/physical) forms were all scanned utilizing a Xerox AltaLink B8170.  The following modifications were made to the default scan settings:
+
+* Output Color: Color
+* Resolution: 600 dpi
+* Quality/File Size: Lowest Compression / Largest File Size
+
+(documentation is still in progress)
 
 ## Requirements
 
