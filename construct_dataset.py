@@ -74,7 +74,7 @@ random.seed(seed)
 random.shuffle(tile_files)
 
 # Determine the training and test image ranges
-training_percentage = 0.70
+training_percentage = 5/6
 number_of_training_images = int(training_percentage * len(tile_files))
 number_of_test_images = len(tile_files) - number_of_training_images
 training_subrange = range(0, number_of_training_images)
