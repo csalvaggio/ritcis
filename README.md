@@ -25,7 +25,7 @@ where the `028` represents the square dimension of the images (28x28 pixels in t
 
 ## Data Preparation
 
-The handwritten letters (paper/physical) forms (located in the [https://github.com/csalvaggio/ritcis/tree/main/samples/ppt](samples/ppt) directory) were filled out by students, staff, and faculty at the [Rochester Institute of Technology](https://www.rit.edu).  Forms were scanned utilizing a Xerox AltaLink B8170.  The following modifications were made to the default scan preferences:
+The handwritten letters (paper/physical) forms (located in the [sample/ppt](https://github.com/csalvaggio/ritcis/tree/main/samples/ppt) directory) were filled out by students, staff, and faculty at the [Rochester Institute of Technology](https://www.rit.edu).  Forms were scanned utilizing a Xerox AltaLink B8170.  The following modifications were made to the default scan preferences:
 
 * Output Color: Color
 * Resolution: 600 dpi
