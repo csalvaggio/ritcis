@@ -114,7 +114,7 @@ options:
                         tile image extension [default is "png"]
 </pre>
 
-This script allows for visual inspection of each tile from an individual sample form and keep/remove that tile from the extracted set.  This allows for removal of tiles that made it through the previous screening process that should be excluded from the database.
+This script allows for visual inspection of each tile from an individual sample form and keeps/removes that tile from the extracted set.  This allows for removal of tiles that made it through the previous screening process that should be excluded from the database.
 
 #### construct_dataset.py
 
@@ -137,7 +137,7 @@ options:
                         tile image extension [default is "png"]
 </pre>
 
-This script will create MNIST style datasets for the tiles in the specified resolution directory.  Tiles will be randomized and divided into 5/6 training data and 1/6 test data sets.  This split can be modified in the code if desired.  The database files are compressed using gzip to identically mimic the MNIST distribution.
+This script will create MNIST style datasets for the tiles in the specified tile size directory.  Tiles will be randomized and divided into 5/6 training data and 1/6 test data sets.  This split can be modified in the code if desired.  The database files are compressed using gzip to identically mimic the MNIST distribution.
 
 ## Requirements
 
@@ -148,7 +148,7 @@ All processing scripts require Python 3 and the following non-standard modules:
 
 ## Acknowledgements
 
-The author would like to acknowledge the students of the AY2023-2024 Fall semester offering of the course titled *Image Processing and Computer Vision* (IMGS.361)  at the [Rochester Institute of Technology](https://www.rit.edu)'s [Chester F. Carlson Center for Imaging Science](https://www.rit.edu/science/chester-f-carlson-center-imaging-science) for their assistance in preparing the data provided here as well as their vetting of the data's performance in their final classification project:
+The author would like to acknowledge the students of the AY2023-2024 Fall semester offering of the course titled *Image Processing and Computer Vision* (IMGS.361)  at the [Rochester Institute of Technology](https://www.rit.edu)'s [Chester F. Carlson Center for Imaging Science](https://www.rit.edu/science/chester-f-carlson-center-imaging-science) for their assistance in preparing the data provided in this repository as well as their vetting of the data's performance in their final classification project:
 
 (listed alphabetically)
 
