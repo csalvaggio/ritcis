@@ -21,7 +21,7 @@ The compressed database files located in `datasets` are named as
     train-images-028-ubyte.gz
     train-labels-028-ubyte.gz
 
-where the `028` represents the square dimension of the images (28x28 pixels in this example).  Be sure to decompress these database files prior to use on your system.
+where the `028` represents the square dimension of the images (28x28 pixels in this example).  Square-dimensioned versions of the data are provided at 28, 56, 112, and 224 pixels.  Be sure to decompress these database files prior to use on your system.
 
 ## Data Preparation
 
