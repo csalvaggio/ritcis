@@ -33,6 +33,10 @@ The handwritten letters (paper/physical) forms (located in the [samples/ppt](htt
 
 The PDFs generated from the scans are located in the [samples/pdfs](https://github.com/csalvaggio/ritcis/tree/main/samples/pdfs) directory.  Each PDF contains 10 scanned forms.
 
+### Data Processing Pipeline
+
+The handwritten letter forms are processed to the final datasets using the following scripts:
+
 #### extract_tiles.py
 
 <pre>
