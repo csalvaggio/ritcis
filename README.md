@@ -23,14 +23,6 @@ The compressed database files located in `datasets` are named as
 
 where the `028` represents the square dimension of the images (28x28 pixels in this example).  Be sure to decompress these database files prior to use on your system.
 
-
-
-flowchart LR
-  A[Capture] --> B(Document) --> C{{Review and<br/>Approve}} --> D(Publish) --> E((( )))
-
-
-
-
 ## Data Preparation
 
 The handwritten letters (paper/physical) forms were all scanned utilizing a Xerox AltaLink B8170.  The following modifications were made to the default scan settings:
