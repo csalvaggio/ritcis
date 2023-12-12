@@ -146,6 +146,16 @@ All processing scripts require Python 3 and the following non-standard modules:
 * OpenCV (cv2)
 * pdf2image
 
+## Performance
+
+This dataset has undergone limited testing to this point.  The results by algorithm are as follows:
+
+| CLASSIFIER            | PREPROCESSING | TEST ERROR RATE (%) |
+| ----------            | ------------- | ------------------- |
+| k-NN \[k=3] (L1-norm) | (above)       | 12.7                |
+| k-NN \[k=3] (L2-norm) | (above)       | 11.8                |
+| k-NN \[k=3] (L3-norm) | (above)       | 11.4                |
+
 ## Acknowledgements
 
 The author would like to acknowledge the students of the AY2023-2024 Fall semester offering of the course titled *Image Processing and Computer Vision* (IMGS.361)  at the [Rochester Institute of Technology](https://www.rit.edu)'s [Chester F. Carlson Center for Imaging Science](https://www.rit.edu/science/chester-f-carlson-center-imaging-science) for their assistance in preparing the data provided in this repository as well as their vetting of the data's performance in their final classification project:
