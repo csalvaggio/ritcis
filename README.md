@@ -10,7 +10,7 @@ A sample handwritten letters form used to collect the samples for the RITCIS dat
     <img width="50%" src="images/sample.png">
 </p>
 
-To date, 99 forms have been prepared and used to create the current instantiation of the database.  This instantiation is split into 36,381 training images and 7,277 test images.
+To date, 109 forms have been prepared and used to create the current instantiation of the database.  This instantiation is split into 39,521 training images and 7,905 test images.
 
 The format of the training/test images and labels files, located in the `datasets` directory above, are identical to those used for the MNIST database files.  Data readers designed for reading MNIST database files should work identically on the RITCIS database files.
 
