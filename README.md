@@ -77,7 +77,7 @@ options:
 
 This script performs the extraction of an individual tile for each handwritten letter on the handwritten letter forms.
 
-Each page of the provided PDF file is converted to an image at a resolution of 600 dpi.  Each page's image is aligned to a fixed grid using the fiducials located in the four (4) corners of the form and a quad-to-quad perspective mapping function.  This allows for the individual letter regions (denoted by the dots on the form) to be extracted easily from predefined locations.
+Each page of the provided PDF file is converted to an image at a resolution of 600 dpi.  Each page's image is aligned to a fixed grid using the fiducials located in the four (4) corners of the form utilizing a quad-to-quad perspective mapping function.  This allows for the individual letter regions (denoted by the dots on the form) to be extracted easily from predefined locations.
 
 The extracted tiles undergo a series of processing steps to prepare them for later ingestion into the database.  The steps are:
 
@@ -87,10 +87,10 @@ The extracted tiles undergo a series of processing steps to prepare them for lat
 * Binary thresholding (at a fixed level of 127) to prepare the tile for cleanup
 * Cleanup using a morphological opening and closing operation to minimize noise and small letter defects
 * Computation of the centroid of each letter within the tile AND computation of a bounding box for each letter
-* Letter is centered within the tile using either the centroid of bounding box (user selectable)
+* Letter is centered within the tile using either the centroid OR bounding box (user-selectable option)
 * Letter is scaled to fit 0.7 of the tile height or width to size normalize the letter representations
 * Tile is rejected if portions of the letter fall within a buffer region around the outside of the tile
-* Tiles are written to individual image files (PNG format by default), separated in directories by size and sample ID number (these images are not include in this repository due to size limitations)
+* Tiles are written to individual image files (PNG format by default), separated in directories by tile size and sample ID number (these images are not include in this repository due to size limitations)
 
 #### curate_tiles.py
 
@@ -114,7 +114,7 @@ options:
                         tile image extension [default is "png"]
 </pre>
 
-This script will allow for visual inspection of each tile from an individual sample form and keep/remove that tile from the extracted set.  This allows for removal of tiles that made it through the previous screening process that should be excluded from the database.
+This script allows for visual inspection of each tile from an individual sample form and keep/remove that tile from the extracted set.  This allows for removal of tiles that made it through the previous screening process that should be excluded from the database.
 
 #### construct_dataset.py
 
