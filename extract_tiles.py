@@ -240,9 +240,10 @@ for page in pages:
                                         [0, 256]))
             hist = hist / (numpy.sum(hist) / 3)
 
+            # ASSUMPTION: Sheets are filled out using black ink
             # If the individual channel histograms are not all equal (i.e
             # there is user physical color highlighting), then reject the
-            # current tile and cwmove on to the next
+            # current tile and move on to the next
             if numpy.allclose(hist[0], hist[1], 0, absolute_tolerance) and \
                numpy.allclose(hist[1], hist[2], 0, absolute_tolerance) and \
                numpy.allclose(hist[2], hist[0], 0, absolute_tolerance):
