@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: >
+  If you use this dataset, please cite it using the metadata below.
+title: RITCIS Handwritten Letters Database
+version: 1.0.0
+date-released: 2024-12-21
+authors:
+  - family-names: Salvaggio
+    given-names: Carl
+    affiliation: Rochester Institute of Technology
+    orcid: https://orcid.org/0000-0001-9293-9696
+abstract: >
+  The RITCIS database comprises uppercase handwritten letters collected from students, staff, and faculty at the Rochester Institute of Technology. It serves as a resource for training and testing machine learning algorithms in classification tasks.
+repository-code: https://github.com/csalvaggio/ritcis
+license: GPL-3.0
+keywords:
+  - machine learning
+  - handwritten letters
+  - classification
+  - dataset
+  - RIT
+
